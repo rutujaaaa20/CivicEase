@@ -1,0 +1,80 @@
+/* ===============================
+   Main Layout
+================================== */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Layout with sidebar for dashboard pages */
+.layout-with-sidebar {
+  display: flex;
+  width: 100%;
+}
+
+/* Page content next to sidebar */
+.page-content {
+  flex: 1;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* ===============================
+   General Container
+================================== */
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* ===============================
+   Sidebar
+================================== */
+.layout-with-sidebar .sidebar {
+  position: relative;
+  height: auto;
+}
+
+/* ===============================
+   Footer
+================================== */
+footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+/* ===============================
+   Full-Width Pages (Home, Login)
+================================== */
+.homepage,
+.login-page {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   Responsive Adjustments
+================================== */
+@media (max-width: 768px) {
+  .layout-with-sidebar {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .page-content {
+    padding: 1rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+}

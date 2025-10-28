@@ -1,0 +1,45 @@
+.report-details {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.report-details h1 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.report-details p {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.assign-tech {
+  margin-top: 2rem;
+}
+
+.assign-tech label {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.assign-tech select {
+  padding: 0.4rem;
+  margin-right: 1rem;
+}
+
+.assign-tech button {
+  padding: 0.5rem 1rem;
+  background-color: #1976d2;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.assign-tech button:hover {
+  background-color: #115293;
+}

@@ -1,0 +1,52 @@
+.create-report {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.create-report h1 {
+  color: #1976d2;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.create-report form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-report label {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.create-report input,
+.create-report textarea,
+.create-report select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.create-report textarea {
+  resize: vertical;
+}
+
+.create-report button {
+  padding: 0.6rem;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.create-report button:hover {
+  background-color: #115293;
+}
